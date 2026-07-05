@@ -2,15 +2,13 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
-// O PROJETO TEM SEU PRÓPRIO BANCO DE DADOS - NÃO MISTURAMOS!
-// COLE AQUI SUAS CREDENCIAIS DO NOVO PROJETO DO FIREBASE
 const firebaseConfig = {
-  apiKey: "COLE_SUA_API_KEY_AQUI",
-  authDomain: "seu-projeto.firebaseapp.com",
-  projectId: "seu-projeto",
-  storageBucket: "seu-projeto.appspot.com",
-  messagingSenderId: "SUA_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyCgyHA7scqhZELC7eLg9K20I2HWi4fQdK0",
+  authDomain: "psytech-suno-generator-1.firebaseapp.com",
+  projectId: "psytech-suno-generator-1",
+  storageBucket: "psytech-suno-generator-1.firebasestorage.app",
+  messagingSenderId: "1018667808413",
+  appId: "1:1018667808413:web:793d6ab64cd9c9a9ac8674"
 };
 
 const app = initializeApp(firebaseConfig);
