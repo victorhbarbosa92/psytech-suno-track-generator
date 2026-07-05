@@ -1,0 +1,35 @@
+{
+  "studio_presets": {
+    "BR Prog Anthem": "Genre: Brazilian Progressive Trance. Bassline: Offbeat bouncing, rolling bass. Drums: Punchy kick, tight closed hi-hats. FX: Sweep filters, laser zaps, subtle vocal chants. Vibe: High energy, festival mainstage.",
+    "Dark Ritual": "Genre: Darkpsy / Forest. Bassline: Fast 150+ BPM, galloping triplet bass. Drums: Heavy, driving percussion, industrial snare. FX: Organic squelches, eerie atmospheres, tribal chants. Vibe: Deep, mysterious, psychedelic."
+  },
+  "modular_elements": {
+    "subgenres": ["Psytrance", "Full-On", "Progressive Trance", "Darkpsy", "Hi-Tech", "Goa Trance"],
+    "bpm_ranges": ["138 BPM", "142 BPM", "145 BPM", "150 BPM", "160+ BPM"],
+    "basslines": ["Rolling Triplet", "Offbeat", "Kbass", "Galloping", "FM FM Bass"],
+    "fx_chains": ["Reverb + Delay on Plucks", "Acid 303 Lines", "Gating Pads", "Pitch bent sweeps"],
+    "cover_bypass_methods": ["Instrumental intro, evolving to full spectrum", "Acapella fade into drop", "Percussion only start"]
+  },
+  "questions": [
+    {
+      "key": "subgenres",
+      "text": "Qual vertente você quer criar?"
+    },
+    {
+      "key": "bpm_ranges",
+      "text": "E qual a faixa de BPM (velocidade)?"
+    },
+    {
+      "key": "basslines",
+      "text": "Como deve ser o estilo da Bassline?"
+    },
+    {
+      "key": "fx_chains",
+      "text": "Qual o estilo principal dos efeitos (FX)?"
+    },
+    {
+      "key": "cover_bypass_methods",
+      "text": "Por último, como você quer estruturar a intro / cover bypass?"
+    }
+  ]
+}
