@@ -2,7 +2,8 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
-// COLE AQUI SUAS CREDENCIAIS DO FIREBASE
+// O PROJETO TEM SEU PRÓPRIO BANCO DE DADOS - NÃO MISTURAMOS!
+// COLE AQUI SUAS CREDENCIAIS DO NOVO PROJETO DO FIREBASE
 const firebaseConfig = {
   apiKey: "COLE_SUA_API_KEY_AQUI",
   authDomain: "seu-projeto.firebaseapp.com",
